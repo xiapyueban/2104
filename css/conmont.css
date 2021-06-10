@@ -1,0 +1,45 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,input{
+	margin: 0;
+	padding: 0;
+}
+
+.clear-fix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+html,body{
+	height: 100%;
+}
+
+img{
+	
+	display: block;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+fl{
+	float: left;
+}
+
+fr{
+	float: right;
+}
+
+guai{
+	box-sizing: border-box;
+}
+
+input{
+	outline: none;
+}

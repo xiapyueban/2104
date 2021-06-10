@@ -1,0 +1,177 @@
+.bigbox{
+    width: 100%;
+    height: 880px;
+    background: rgb(242, 242, 242);
+
+}
+
+.bigbox1{
+    height: 50px;
+    width: 1280px;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 1280px;
+    height: 625px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.content-r{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: 4;
+    box-shadow: 1px 1px 2px 2px #efefef;
+}
+
+.mark{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.rightBox{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px #ddd;
+    top: 267px;
+    left: 650px;
+    overflow: hidden;
+    display: none;
+}
+.content-l{
+    width: 530px;
+    height: 470px;
+}
+
+.rightBox img{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+}
+.content-r img{
+    width: 100%;
+    height: 100%;
+}
+
+.cp5{
+    color: rgb(93, 126, 149);
+}
+
+h2{
+    line-height: 50px;
+}
+
+.cp2{
+    line-height: 30px;
+}
+
+.cp1{
+    line-height: 25px;
+}
+.cp1,.cp2{
+    font-size: 14px;
+
+}
+.btn1{
+    width: 530px;
+    height: 46px;
+    margin-bottom: 5px;
+}
+.btn1>a{
+    width: 530px;
+    height: 46px;
+    z-index: 5;
+}
+
+.js{
+    width: 530px;
+    height: 16px;
+    margin: 10px 0;
+}
+.js p{
+    font-size: 12px;
+    color: #666;
+    float: right;
+}
+.cp3{
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.cp4{
+    color: #888;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.cp4>span{
+    font-size: 24px;
+}
+
+.btn2{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.xingq{
+    width: 1280px;
+    height: 140px;
+    margin: 20px auto 20px;
+    background: #fff;
+}
+
+.xingq-t,.xingq-t>ul{
+    height: 60px;
+
+}
+.xingq-t>ul{
+    display: flex;
+    line-height: 60px;
+    justify-content: center;
+}
+.xingq-t>ul>li{
+    height: 60px;
+
+    padding: 0 10px;
+}
+
+.xingq-c,.xingq-b{
+    width: 1240px;
+    margin-left: 20px;
+}
+
+.xingq-c{
+    background: #999;  
+    height: 1px;
+}
+.xingq-b{
+    font-size: 12px;
+    margin: 20px;
+}
+
+.bigbox1 a,.bigbox1 span{
+    font-size: 14px;
+}
+
+.bigbox1 span{
+    padding: 0 5px;
+}
